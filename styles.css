@@ -1,6 +1,7 @@
 body {
     background: rgb(231,31,166);
     background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%);
+    margin: 0px;
 }
 
 h1 {
@@ -27,11 +28,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 100px; */
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 60px 100px;
+
 }
 
 /* .navbar {
