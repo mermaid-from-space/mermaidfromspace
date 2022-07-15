@@ -3,6 +3,7 @@ body {
     background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%);
     margin: 0px;
     font-family: 'Share Tech Mono', monospace;
+    /* font-family: 'Rubik Moonrocks', sans-serif; */
 }
 
 h1 {
@@ -63,6 +64,16 @@ h1 {
    grid-template-columns: 1fr;
 }
 
+.contact-hours-wrapper > .hours {
+    font-family: 'Rubik Moonrocks', sans-serif;
+}
+
+.nav-link a {
+    font-family: 'Rubik Moonrocks', sans-serif;
+    color: #15f4ee
+}
+
 .address-wrapper {
-    
+    font-family: 'Rubik Moonrocks', sans-serif;
+    color: #ff44cc;
 }
