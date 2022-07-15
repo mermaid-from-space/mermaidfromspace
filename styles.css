@@ -2,6 +2,7 @@ body {
     background: rgb(231,31,166);
     background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%);
     margin: 0px;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 h1 {
@@ -44,11 +45,24 @@ h1 {
     z-index:999;
 } */
 
-.contact-hours-wrapper {
-    color: pink;
+.left-column { 
+    display:flex;
+    align-items: center;
+}
 
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper {
+   display: grid;
+   grid-template-columns: 1fr;
 }
 
 .address-wrapper {
-    color:pink;
+    
 }
