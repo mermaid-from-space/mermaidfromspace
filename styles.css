@@ -1,32 +1,15 @@
 body {
     background: rgb(231,31,166);
-    /* background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%); */
+    background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%);
     margin: 0px;
     font-family: 'Share Tech Mono', monospace;
-    /* font-family: 'Rubik Moonrocks', sans-serif; */
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 55px;
-    font-weight: 100;
-    text-align: center;
-    color: hotpink;
-}
-
-.img_mfs_logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 777px
-
-}
 
 /* common nav styles */
 .navigation-wrapper {
     height: 190px;
-    background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%);
-    /* background-color: #9D00FF; */
+    background-color: black;
     color: #62FF00;
     display: flex;
     justify-content: space-between;
@@ -55,14 +38,8 @@ h1 {
 }
 
 .navigation-wrapper > .contact-hours-wrapper > .hours {
-    font-family: 'Rubik Moonrocks', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
-
-.links-wrapper > .nav-link a {
-    font-family: 'Rubik Moonrocks', sans-serif;
-    color: #15f4ee
-}
-
 
 .navigation-wrapper > .center-column {
     display: grid;
@@ -94,14 +71,13 @@ h1 {
 } 
 
 .links-wrapper > .nav-link a {
-    font-family: 'Rubik Moonrocks', sans-serif;
-    color: #cbcbcb;
+    color:#62FF00;
     text-decoration: none;
     transition: 0.5s;
 }
 
 .links-wrapper > .nav-link a:hover {
-    color: #cea135;
+    color: #bf00ff;
     letter-spacing: 2px;
 }
 
@@ -110,8 +86,26 @@ h1 {
     align-items: center;
 }
 
-.navigation-wrapper > .right-column >.address-wrapper {
-    font-family: 'Rubik Moonrocks', sans-serif;
-    color: #ff44cc;
-    text-align: right;
+.navigation-wrapper > .right-column >.address-wrapper a {
+    color: #62FF00;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column >.address-wrapper a:hover {
+    color: #bf00ff;
+}
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a {
+    color: #62FF00;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #bf00ff;
 }
