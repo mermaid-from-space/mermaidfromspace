@@ -1,6 +1,6 @@
 body {
     background: rgb(231,31,166);
-    background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%);
+    /* background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%); */
     margin: 0px;
     font-family: 'Share Tech Mono', monospace;
     /* font-family: 'Rubik Moonrocks', sans-serif; */
@@ -25,7 +25,8 @@ h1 {
 /* common nav styles */
 .navigation-wrapper {
     height: 190px;
-    background-color: #9D00FF;
+    background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%);
+    /* background-color: #9D00FF; */
     color: #62FF00;
     display: flex;
     justify-content: space-between;
@@ -62,10 +63,6 @@ h1 {
     color: #15f4ee
 }
 
-.navigation-wrapper > .right-column >.address-wrapper {
-    font-family: 'Rubik Moonrocks', sans-serif;
-    color: #ff44cc;
-}
 
 .navigation-wrapper > .center-column {
     display: grid;
@@ -80,8 +77,9 @@ h1 {
 }
 
 .navigation-wrapper > .center-column > .banner-image img {
-    width: 216px;
+    width: 150px;
     height: 100%;
+    border-radius: 50%;
 }
 
 .links-wrapper {
@@ -89,6 +87,11 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+} 
 
 .links-wrapper > .nav-link a {
     font-family: 'Rubik Moonrocks', sans-serif;
@@ -100,4 +103,15 @@ h1 {
 .links-wrapper > .nav-link a:hover {
     color: #cea135;
     letter-spacing: 2px;
+}
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column >.address-wrapper {
+    font-family: 'Rubik Moonrocks', sans-serif;
+    color: #ff44cc;
+    text-align: right;
 }
