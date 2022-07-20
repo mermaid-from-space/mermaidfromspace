@@ -47,26 +47,27 @@ h1 {
     font-size: 2em;
 }
 
-.left-column > .contact-hours-wrapper {
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
    display: grid;
    grid-template-columns: 1fr;
+   grid-gap: 10px;
 }
 
-.contact-hours-wrapper > .hours {
+.navigation-wrapper > .contact-hours-wrapper > .hours {
     font-family: 'Rubik Moonrocks', sans-serif;
 }
 
-.nav-link a {
+.links-wrapper > .nav-link a {
     font-family: 'Rubik Moonrocks', sans-serif;
     color: #15f4ee
 }
 
-.address-wrapper {
+.navigation-wrapper > .right-column >.address-wrapper {
     font-family: 'Rubik Moonrocks', sans-serif;
     color: #ff44cc;
 }
 
-.banner-image img {
+.navigation-wrapper > .center-column > .banner-image img {
     width: 216px;
     height: 100%;
 }
