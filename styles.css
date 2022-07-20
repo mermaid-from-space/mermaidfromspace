@@ -34,28 +34,16 @@ h1 {
 
 }
 
-/* .navbar {
-    background: #131313;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index:999;
-} */
-
-.left-column { 
+.navigation-wrapper > .left-column { 
     display:flex;
     align-items: center;
 }
 
-.icon {
+.navigation-wrapper > .left-column > .icon {
     margin-right: 15px;
 }
 
-.icon i {
+.navigation-wrapper > .left-column > .icon i {
     font-size: 2em;
 }
 
@@ -76,4 +64,9 @@ h1 {
 .address-wrapper {
     font-family: 'Rubik Moonrocks', sans-serif;
     color: #ff44cc;
+}
+
+.banner-image img {
+    width: 216px;
+    height: 100%;
 }
