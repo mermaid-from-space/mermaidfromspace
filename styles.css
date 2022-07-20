@@ -67,7 +67,25 @@ h1 {
     color: #ff44cc;
 }
 
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
 .navigation-wrapper > .center-column > .banner-image img {
     width: 216px;
     height: 100%;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
