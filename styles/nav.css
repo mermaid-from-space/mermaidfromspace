@@ -1,11 +1,3 @@
-body {
-    background: rgb(231,31,166);
-    background: radial-gradient(circle, rgba(231,31,166,1) 0%, rgba(110,9,121,1) 55%, rgba(0,212,255,1) 100%);
-    margin: 0px;
-    font-family: 'Share Tech Mono', monospace;
-}
-
-
 /* common nav styles */
 .navigation-wrapper {
     height: 190px;
@@ -18,6 +10,7 @@ body {
 
 }
 
+/* left column styles */
 .navigation-wrapper > .left-column { 
     display:flex;
     align-items: center;
@@ -37,9 +30,13 @@ body {
    grid-gap: 10px;
 }
 
-.navigation-wrapper > .contact-hours-wrapper > .hours {
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
     font-family: 'Share Tech Mono', monospace;
+    color: #62FF00;
+    font-size: 0.6em;
 }
+
+/* center column styles */
 
 .navigation-wrapper > .center-column {
     display: grid;
@@ -80,6 +77,8 @@ body {
     color: #bf00ff;
     letter-spacing: 2px;
 }
+
+/* right column styles */
 
 .navigation-wrapper > .right-column {
     display: flex;
