@@ -1,0 +1,11 @@
+/* heros section styles */
+
+.hero-section {
+    background-image: url(../backgrounds/plastic_abstract.gif);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
