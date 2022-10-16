@@ -26,4 +26,49 @@ h1, h2, h3, h4, h5, h6 {
 .footer > .logo-footer img {
     width: 180px;
     height: 100%;
+    filter: brightness(50%);
+}
+
+.footer > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-phone-hours > .hours {
+    font-size: 0.8em;
+    color: #62FF00;
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: hotpink;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #62FF00;
+    
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: aqua;
 }
