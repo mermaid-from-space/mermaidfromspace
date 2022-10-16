@@ -8,3 +8,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fredoka One', sans-serif;
 }
+
+/* footer styles */
+
+.footer { 
+    background-color: #050505;
+    color: #62FF00;
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100%;
+}
